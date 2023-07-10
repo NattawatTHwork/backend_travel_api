@@ -10,7 +10,7 @@ const connection = mysql.createConnection(process.env.DATABASE_URL)
 
 app.get('/', (req, res) => {
     console.log('Hello world')
-    res.send('Hello world!!')
+    res.send('รักนะคะ จุ้บๆ')
 })
 
 app.get('/attractions', (req, res) => {
